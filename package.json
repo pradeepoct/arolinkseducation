@@ -1,0 +1,22 @@
+{
+  "name": "url-redirect-inspector",
+  "version": "1.0.0",
+  "description": "Educational HTTP redirect tracer, network inspector, and link expansion engine",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "keywords": [
+    "url-inspector",
+    "http-redirects",
+    "network-analysis",
+    "link-expander"
+  ],
+  "author": "pradeepoct",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
